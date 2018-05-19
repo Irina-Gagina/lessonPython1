@@ -10,7 +10,7 @@ logging.basicConfig(format='%(name)s - %(levelname)s - %(message)s',
                     )
 
 def greet_user(bot, update):
-    text = 'Приветик, солнышко!'
+    text = 'Приветик, солнышко! :)'
     print(text)
     update.message.reply_text(text)
 
