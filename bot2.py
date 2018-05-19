@@ -6,7 +6,7 @@ PROXY = {'proxy_url': 'socks5://t1.learn.python.ru:1080',
 import logging
 logging.basicConfig(format='%(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO,
-                    filename='bot.log'
+                    filename='bot2.log'
                     )
 
 def greet_user(bot, update):
